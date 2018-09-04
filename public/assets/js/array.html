@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script type="text/javascript">
+			function substitute() {
+				var myvalue = document.getElementById('name').value;
+				if (myvalue.length == 0) {
+					alert("Please input text in the textbox");
+					return;
+				}
+				var mytitle = document.getElementById('title');
+				mytitle.innerHTML = myvalue;
+			}
+		</script>
+	</head>
+	<body>
+		<h1 id="title">Javascript examples</h1>
+		<input type="text" id="name" placeholder="Enter any text">
+		<input type="submit" value="Click me!" onclick="substitute()">
+	</body>
+</html>

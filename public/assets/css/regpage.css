@@ -1,0 +1,13 @@
+
+header{
+    border-bottom: 1px solid #bd2130;
+    color: darkblue;
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+#button{
+    text-align: center;
+}
+body{
+    background: #fefefe;
+}

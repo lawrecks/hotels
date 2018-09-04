@@ -1,0 +1,13 @@
+body{
+    font-family: constantia;
+}
+header{
+    text-align: center;
+    background-color:rgba( 200, 199, 197, 0.336 );
+    border-bottom: 2px solid rgba( 86, 85, 81, 0.336 );
+    margin-bottom: 30px;
+}
+div{
+    margin-bottom: 10px;
+    text-align: center;
+}

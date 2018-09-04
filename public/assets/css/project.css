@@ -1,0 +1,53 @@
+h1,h2 {
+    color:dodgerblue;
+    font-family:cursive;
+}
+.banner {
+    background: url(../img/music.png);
+    height: 170px;
+}
+nav {
+    background-color: rgb(200, 100, 255);
+}
+ul {
+    margin-top: 15px;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+ul a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 15px 0 15px 0;
+    font-size: 15px;
+}
+ul a:hover {
+    color: red;
+}
+.banner p {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 135px 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+}
+.content {
+    border-bottom: 1px solid #a1a1a1;
+}
+.omega {
+    background: rgb(200, 100, 255);
+}
+.omega h2, .omega p {
+    color: aliceblue;
+    margin: 10px;
+}
+textarea, input {
+    position: relative;
+    right: 20px;
+}
+footer p {
+    color:#b2b2b2;
+    font-style: italic;
+    margin: 10px 0 ;
+}

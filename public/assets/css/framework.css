@@ -1,0 +1,30 @@
+.container_12{
+	background-color: bisque;
+}
+nav li{
+	display: inline;
+}
+aside{
+	background: cyan;
+}
+header{
+	background: #1273ff;
+	overflow: hidden;
+}
+.main{
+	margin: 30px 0;
+}
+.sections{
+	background-color: aquamarine;
+	margin: 0 0;
+}
+.asides{
+	background-color: cornflowerblue;
+	position: relative;
+	top: 266px;
+}
+section{
+	box-sizing: border-box;
+	padding: 20px;
+}
+

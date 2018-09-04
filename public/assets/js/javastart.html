@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	First Js </title>
+</head>
+<body>
+	<h1>Javascript Examples</h1>
+	<input type="button" id="clickMe" onclick = "changeText()" value="Click me!">	
+	<a href="http://www.bing.com" id="myAnchor">bing!</a>
+
+
+	<script type="text/javascript" src="javastart.js"></script>
+	<script type="text/javascript">
+        //var one = "3.142" //string
+        //var two = 3.142 //number
+        //var three = true or false //boolean
+        /*var colors = ['red', 'blue', 'green'];
+        colors.push('purple', 'black');
+        alert(colors[4]);*/
+
+
+        //IF STATEMENT
+
+        /* var someValue = 30;
+           var otherValue = 35;
+        if (someValue < 30) {
+            alert('First case');
+        }
+        else if (otherValue > 30) {
+            alert('Second case');
+        }*/
+        /*if (someValue || otherValue === 30) {
+            alert('Third case');
+        }
+        if (someValue !== 40) {
+            alert('Fourth case');
+        }*/
+
+
+        /*var myResult;
+        myResult = (someValue == 30) ? "equal" : "not equal";
+        alert(myResult);*/
+
+
+        //SWITCH STATEMENT
+
+        /*var userName = "Rimmer";
+        switch (userName) {
+            case "Rister":
+                document.write ('Welcome back');
+                break;
+            case "Rimmer":
+                document.write ('Hey there buddy!');
+                break;
+            default:
+                document.write ('Nothing else to say here');
+                break;
+        }*/
+
+
+        //FUNCTIONS
+
+        /* function myNewFunction() {
+            alert('Howdy!');
+        }
+        myNewFunction();*/
+
+        /*function add(firstNumber, secondNumber) {
+            return firstNumber + secondNumber;
+        }
+        var result = add(1,2);
+        alert(result);*/
+
+
+        //FUNCTION LITERAL
+
+        /* var addMe = function() {
+            return arguments[0] + arguments[1];
+        }
+        var newValue = addMe(1,7);
+        alert(newValue); */
+
+
+        //ANONYMOUS FUNCTION
+
+        /*alert((function() {
+            return arguments[0] + arguments[1];
+        }) (1,4)); */
+
+
+        //ARRAY
+
+        /*var Cars = [];
+        Cars[0] = "Lamborghini";
+        Cars[1] = "Ferrari";
+        Cars[2] = "Bugatti";
+        alert('Jacob chooses: ' + Cars[1]);
+
+        var cars = ["Lamborghini", "Ferrari", "Bugatti" ];
+        alert("Jacob chooses; " + cars[2]); */
+
+
+        //ASSOCIATIVE ARRAYS
+
+        /*var caveList = [];
+        caveList["sara"] = 3;
+        caveList["law"] = 67;
+        caveList["ray"] = 45;
+        caveList["dera"] = 6;
+        caveList["ali"] = 9;
+        alert("Beatrice number: " + caveList["ray"]); */
+
+
+        //WHILE LOOP
+
+        /*var playlist = [];
+       playlist[0] = "Save me";
+       playlist[1] = "Focus";
+       playlist[2] = "Ready";
+       playlist[3] = "Yeah"; */
+
+        /*var i = 0;
+        while (i < playlist.length) {
+            document.write("<br>Now playing: " + playlist[i]);
+            i++;
+        }  */
+
+
+        //DO WHILE
+
+        /* var someResult = false;
+        do {
+            document.write('It will print at least once!');
+        }
+        while (someResult); */
+
+
+        //FOR LOOP
+
+        /* for (var i = 0; i < playlist.length; i++) {
+            document.write("<br>Now playing: " + playlist[i]);
+        } */
+
+
+        //FOR IN
+
+        /* for (i in playlist) {
+             document.write("<br> Now playing: " + playlist[i]);
+         } */
+
+        //GLOBAL SCOPE
+
+        /*myNewScope = "global";
+        (function() {
+            alert('My scope inside the function is ' + myNewScope);
+        }) ()
+        alert('My scope outside the function is ' + myNewScope);
+
+        } */
+
+	</script>
+</body>
+</html>

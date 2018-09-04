@@ -1,0 +1,78 @@
+
+body{
+    font-family: Waree;
+}
+header{
+    border-bottom: 1px solid #005cbf;
+    color: #007bff;
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+#button{
+    text-align: center;
+}
+.main {
+    width: 70%;
+    background: white;
+    horiz-align: center;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: -9px 9px 16px rgba(0, 0, 0, 0.2);
+}
+.container a{
+    color: #4e555b;
+}
+container a:hover{
+    text-decoration: none;
+    color:#062c33;
+}
+nav{
+    padding-bottom:0;
+}
+.nav-item{
+    width:30%;
+    color: #2c3643;
+    text-align: center;
+    font-size: 18px;
+}
+h3{
+    font-weight: 500;
+    text-shadow: 0.5px 1px 3px black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color:#34ce57;
+    color:inherit;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {*/
+    /*background-color: white;*/
+/*}*/
+.b2 a{
+    color:red;
+}
+.b2 a:hover{
+    color:white;
+    text-decoration: none;
+}

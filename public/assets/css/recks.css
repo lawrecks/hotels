@@ -1,0 +1,53 @@
+body{
+	background-color: cadetblue;
+	margin-bottom: 0;
+}
+.whole{
+	background-color:#d6ecf0;
+	height: auto;
+	width: 60%;
+	min-width: 450px;
+	margin: auto;
+    font-family: sans-serif;
+	color: midnightblue;
+	position: relative;
+	bottom: 30px;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	margin-top: 30px;
+	letter-spacing: 5px;
+	text-shadow: 1px 3px 0px #d2d2d2, 2px 4px 0px midnightblue;
+}
+.up{
+	padding-left: 0;
+	background-color: black
+}
+.up a{ 
+	padding: inherit;
+	text-decoration: none;
+	color: white;
+	
+}
+.up a:hover{
+	text-decoration: underline;
+	color: firebrick;
+	font-size: 18px;
+}
+.up li{
+	display: inline;
+	padding-right: 15px
+}
+ul{
+	list-style: none;
+}
+label {
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+input{
+	display: block
+}

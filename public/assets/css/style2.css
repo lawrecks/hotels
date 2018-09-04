@@ -1,0 +1,19 @@
+li {
+	display: inline; 
+	color:green;
+	padding-right:15px
+} 
+ul a {
+	color:green;
+	text-decoration:none;
+}
+ul a:hover {
+	text-decoration:underline;
+	color: red
+}
+body {
+	font-family: sans-serif;
+}
+ul {
+	background:#d2d2d2;
+}

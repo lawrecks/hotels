@@ -1,0 +1,112 @@
+.phrase{
+	background: url(../img/bar.png) no-repeat;
+	width: 760px;
+	height:236px;
+}
+.phrase p{
+	margin: 180px 0 0 5px;
+	font-size: 20px;
+	width: 450px;
+	color:white;
+	line-height: 25px;
+	background: rgba(255,255,255,0.15);
+	font-family: "swiss721BT light";
+	padding-left: 7px;
+}
+.container_24{
+	margin-top: 10px;
+}
+nav ul{
+	padding-top: 12px;
+}
+a{
+	color:#7e7e7e;
+	text-decoration: none;
+}
+nav a{
+	color:#7e7e7e;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+a:hover, .selected{
+	color: black;
+}
+nav li{
+	display: inline;
+	margin-left: 24px;
+	
+}
+.music{
+	background: url(../img/music.png);
+	width: 140px;
+	height:236px;
+}
+.main{
+	margin-top: 30px;
+}
+
+.main blockquote p {
+	padding-left: 20px;
+	width: 200px;
+}
+.main blockquote p:before,
+.main blockquote p:after {
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:first-child:before {
+	content: '“';
+	position:absolute;
+	top: 0px;
+	left: 0;
+}
+.main blockquote p:last-child:after {
+	content: '”';
+	position:absolute;
+	bottom:-20px;
+	right: 10px;
+}
+.button{
+	background: #242324;
+	color:white;
+	padding: 6px;
+	font-weight: bold;
+	font-size: 11px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color:#353535;
+}
+h2{
+	font-size: 26px;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	border-bottom: 1px solid cadetblue;
+	margin-bottom: 30px;
+}
+span{
+	font-size: 100px;
+	color:#bfbfbf;
+}
+footer{
+	margin-top: 100px;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+blockquote {
+	position: relative;
+}
+.author {
+	margin-left: 60px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 15px;
+}
+

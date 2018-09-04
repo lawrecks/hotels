@@ -1,0 +1,347 @@
+@media screen {
+    .navbar-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border-width: 0 0 1px;
+        border-style: solid;
+        border-color: #dbe6ec;
+    }
+
+    .navbar-left, .navbar-right {
+        display: flex;
+        padding: 0;
+    }
+
+    .navitem {
+        display: flex;
+        height: 60px;
+    }
+    .dropdown-menu{
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 2;
+    }
+
+    h1 {
+        text-shadow: 1px 3px 3px black;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        -webkit-box-align: center;
+        height: 50px;
+        align-items: center;
+        cursor: pointer;
+        color: #2c3643;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .nav-link span {
+        padding: 5px;
+    }
+
+    .skype {
+        margin-top: 5px;
+    }
+
+    .banner {
+        position: relative;
+        background-image: url(../img/banner1.jpg);
+        background-repeat: repeat-x;
+        background-size: contain;
+        color: #fff;
+        padding: 0;
+    }
+
+    .banner .container {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .blur {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 0;
+        height: 260px;
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+
+    .hform {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .suggestions {
+        background: rgba(0, 0, 0, 0.3);
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 101px;
+        position: relative;
+        top: 26px;
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #fff;
+        position: relative;
+        align-items: center;
+    }
+
+    .banner .container h2 {
+        color: #fff;
+        position: relative;
+        font-weight: 400;
+        margin-top: 0;
+    }
+
+    .search {
+        display: inline;
+        border-radius: 3px;
+        height: 41px;
+    }
+
+    .search input {
+        margin-right: 1px;
+    }
+
+    .forms {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+
+    ::placeholder {
+        font-size: 13px;
+        color: #9fa7ad;
+        vertical-align: center;
+    }
+
+    .search-field {
+        display: inline;
+        width: 38px;
+    }
+
+    .check-in {
+        display: inline;
+        width: 28px;
+    }
+
+    .check-out {
+        display: inline;
+        width: 23px;
+    }
+
+    .suggest {
+        padding: 0;
+        width: 96%;
+        position: relative;
+        left: 5%
+    }
+
+    .Lagos {
+        border: 1px solid white;
+        height: 60px;
+        position: relative;
+        right: 20px;
+    }
+
+    .Abuja {
+        border: 1px solid white;
+        height: 60px;
+    }
+
+    .Cross {
+        border: 1px solid white;
+        height: 60px;
+        position: relative;
+        left: 20px;
+    }
+
+    .Lagos:hover, .Abuja:hover, .Cross:hover {
+        background: #fff;
+        color: #6c757d;
+        cursor: pointer;
+    }
+
+    .deal-caption {
+        position: relative;
+        border: 1px solid #e2e6ea;
+        width: 88%;
+        cursor: pointer;
+    }
+
+    .deal-caption ul {
+        padding-left: 10px;
+        vertical-align: center;
+    }
+
+    .deal-caption h6 {
+        color: #00aeff;
+    }
+
+    .deal-caption p {
+        color: #657279;
+        font-size: 14px;
+    }
+
+    .deal-caption h6:hover, .deal-caption p:hover {
+        text-decoration: none;
+    }
+
+    .locations {
+        margin-top: 70px;
+        margin-right: 2%;
+    }
+    .top-cities {
+        margin-bottom: 25px;
+    }
+    .ibadan-port {
+        padding-left: 0;
+    }
+
+    .lagos {
+        background-image: url("../img/lagos-new.jpg");
+        height: 270px;
+    }
+
+    .trans {
+        background: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .lagos .trans, .abuja .trans {
+        width: 106%;
+        position: relative;
+        right: 15px;
+    }
+
+    .trans:hover {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .kano {
+        background-image: url("../img/kano-new.jpg");
+        height: 125px;
+    }
+
+    .owerri {
+        background-image: url("../img/owerri-new.jpg");
+        height: 125px;
+        position: relative;
+        top: 20px;
+    }
+
+    .ibadan {
+        background-image: url("../img/ibadan-new.jpg");
+        height: 125px;
+        padding-bottom: 15px;
+    }
+
+    .port {
+        background-image: url("../img/portharcourt-new.jpg");
+        height: 125px;
+        position: relative;
+        top: 20px;
+    }
+
+    .calabar {
+        background-image: url("../img/calabar-new.jpg");
+        height: 125px;
+        position: relative;
+        right: 15px;
+    }
+
+    .uyo {
+        background-image: url("../img/uyo-new.jpg");
+        height: 125px;
+        position: relative;
+        right: 15px;
+        top: 20px;
+    }
+
+    .abuja {
+        background-image: url("../img/abuja-new.jpg");
+        height: 270px;
+        position: relative;
+        right: 7.5px;
+    }
+
+    .benin {
+        background-image: url("../img/benin-new.jpg");
+        height: 125px;
+    }
+
+    .ogun {
+        background-image: url("../img/ogun-new.jpg");
+        height: 125px;
+        position: relative;
+        top: 20px;
+    }
+
+    .cities ul {
+        text-align: center;
+        color: white;
+        list-style: none;
+    }
+
+    .cities ul h3 {
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .lagos ul, .abuja ul, .benin ul, .ogun ul, .port ul, .uyo ul, .calabar ul, .ibadan ul, .owerri ul, .kano ul {
+        position: relative;
+        top: 43%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .sub-main1 p {
+        color: #00aeff;
+        font-size: 14px;
+        line-height: 1.8em;
+    }
+    .sub-main1{
+        margin-top: 50px;
+        padding-top: 55px;
+        border-top: 1px solid #d2d2d2;
+        cursor: pointer;
+    }
+    .submain2{
+        background: #f3f9ff;
+        margin-top: 55px;
+        padding: 30px;
+    }
+    .submain2 p{
+        color: #657279;
+        font-size: 14px;
+    }
+    .dform{
+        margin-left: 34%;
+    }
+    .lbutton{
+        position: relative;
+        margin-left: 110%;
+    }
+    .mail{
+        width:150%
+    }
+
+
+}

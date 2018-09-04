@@ -1,0 +1,339 @@
+::placeholder{
+    color: #9fa7ad;
+    font-size: 14px;
+    vertical-align: center;
+}
+@media only screen and (max-width: 768px){
+    body{
+        width:100%;
+    }
+    .dform{
+        align-content: center;
+        display:block;
+    }
+    .lbutton{
+        margin-left:0;
+    }
+    .mail{
+        margin-left:0;
+    }
+    .submain2{
+        display:block;
+        width:300px;
+        margin:auto;
+    }
+}
+body{
+    font-family: Waree;
+}
+a:hover{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    padding-bottom:0;
+}
+.nav-item{
+    border-right: 1px solid #c1c1c1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+.nav-btn{
+    margin-top: 2%;
+}
+.banner {
+    background-image: url("../img/hotel1.jpg");
+    height:600px;
+    padding: 0;
+}
+.blur{
+    background:rgba(0,0,0,0.5);
+    height:600px;
+}
+.b-header{
+    padding-top: 4%;
+    color:white;
+    font-weight: 700;
+    text-shadow: 0.5px 1px 3px black;
+}
+.b-header h4{
+    margin-top: 8%;
+}
+.b-form{
+    margin-top: 8%;
+    margin-bottom: 1%;
+    color:white;
+}
+.search{
+    background: rgba(255,255,255,0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(255,255,255,0.0);
+    color: white;
+    font-size: 14px;
+}
+.input1 {
+    width: 80%;
+}
+.input2, .input3{
+    width: 80%;
+}
+.search .btn{
+    width:80%;
+}
+.suggested{
+    color:white;
+}
+.citi{
+    padding: 0;
+    vertical-align: center;
+    background: rgba(0,0,0,0);
+}
+.Lagos{
+    background-image: url("../img/hotelbanner.jpg");
+    background-size: cover;
+    border:1px solid #d2d2d2;
+    width:100%;
+    height: 120px;
+    box-shadow: -10px 10px 16px rgba(0,0,0,0.2);
+}
+.Abuja{
+    background-image: url("../img/hotels.jpg");
+    background-size: cover;
+    background-position: center;
+    border:1px solid #d2d2d2;
+    width:100%;
+    height: 120px;
+    box-shadow: -10px 10px 16px rgba(0,0,0,0.2);
+}
+.Cross{
+    background-image: url("../img/hotel3.jpg");
+    background-size: cover;
+    background-position: center;
+    border:1px solid #d2d2d2;
+    width:100%;
+    height: 120px;
+    box-shadow: -10px 10px 16px rgba(0,0,0,0.2);
+}
+.citi p{
+    vertical-align: center;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+    top:32%;
+}
+.fader{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: rgba(0,0,0,0.6);
+
+}
+.fader:hover {
+    background: rgba(0,0,0,0.3);
+}
+.main{
+    margin-top: 80px;
+    padding-top: 50px;
+    border-top: 1px solid #e3e3e3;
+}
+.deal-caption {
+    position: relative;
+    border: 1px solid #e2e6ea;
+    width: 88%;
+    cursor: pointer;
+}
+
+.deal-caption ul {
+    padding-left: 10px;
+    vertical-align: center;
+}
+
+.deal-caption h6 {
+    color: #00aeff;
+}
+
+.deal-caption p {
+    color: #657279;
+    font-size: 14px;
+}
+
+.deal-caption h6:hover, .deal-caption p:hover {
+    text-decoration: none;
+}
+.locations{
+    margin-top: 70px;
+}
+.top-cities {
+    margin-bottom: 25px;
+}
+.ibadan-port {
+    padding-left: 0;
+}
+
+.lagos {
+    background-image: url("../img/lagos-new.jpg");
+    height: 270px;
+}
+
+.trans {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.lagos .trans, .abuja .trans {
+    width: 106%;
+    position: relative;
+    right: 15px;
+}
+
+.trans:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.kano {
+    background-image: url("../img/kano-new.jpg");
+    height: 125px;
+}
+
+.owerri {
+    background-image: url("../img/owerri-new.jpg");
+    height: 125px;
+    position: relative;
+    top: 20px;
+}
+
+.ibadan {
+    background-image: url("../img/ibadan-new.jpg");
+    height: 125px;
+    padding-bottom: 15px;
+}
+
+.port {
+    background-image: url("../img/portharcourt-new.jpg");
+    height: 125px;
+    position: relative;
+    top: 20px;
+}
+
+.calabar {
+    background-image: url("../img/calabar-new.jpg");
+    height: 125px;
+    position: relative;
+    right: 15px;
+}
+
+.uyo {
+    background-image: url("../img/uyo-new.jpg");
+    height: 125px;
+    position: relative;
+    right: 15px;
+    top: 20px;
+}
+
+.abuja {
+    background-image: url("../img/abuja-new.jpg");
+    height: 270px;
+    position: relative;
+    right: 7.5px;
+}
+
+.benin {
+    background-image: url("../img/benin-new.jpg");
+    height: 125px;
+}
+
+.ogun {
+    background-image: url("../img/ogun-new.jpg");
+    height: 125px;
+    position: relative;
+    top: 20px;
+}
+
+.cities ul {
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+.cities ul h3 {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.lagos ul, .abuja ul, .benin ul, .ogun ul, .port ul, .uyo ul, .calabar ul, .ibadan ul, .owerri ul, .kano ul {
+    position: relative;
+    top: 43%;
+    padding: 0;
+    margin-bottom: 0;
+}
+.sub-main1 p {
+    color: #00aeff;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.sub-main1{
+    margin-top: 50px;
+    padding-top: 55px;
+    border-top: 1px solid #d2d2d2;
+    cursor: pointer;
+}
+.submain2{
+    background: #f3f9ff;
+    margin-top: 55px;
+    padding: 30px;
+}
+.submain2 p{
+    color: #657279;
+    font-size: 14px;
+    justify-content: center;
+}
+.dform{
+    width:441px;
+    margin:auto;
+}
+.lbutton{
+    position: relative;
+    margin-left: 110%;
+}
+.mail{
+    width:150%
+}

@@ -1,0 +1,28 @@
+body{
+    font-family: Waree;
+}
+img{
+    padding-bottom:0;
+    margin-top:2px;
+}
+header{
+    border-bottom: 1px solid #005cbf;
+    color: #007bff;
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+#button{
+    text-align: center;
+}
+.main{
+    width: 70%;
+    background:#f5f8fa;
+    horiz-align: center;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: -9px 9px 16px rgba(0,0,0,0.2);
+}
+h3{
+    font-weight: 500;
+    text-shadow: 0.5px 1px 3px black;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Redo</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../css/javascript.css">
+        <script>
+            function changeText() {
+                var myText = document.getElementById('text');
+                myText.innerHTML = 'You Clicked!';
+            }
+            function changeBackground(x) {
+                var bodyColor = document.getElementById('body');
+                bodyColor.style.color = x.value;
+            }
+        </script>
+    </head>
+    <body id="body">
+        <header>
+            <h1 id="text">Learning Javascript</h1>
+            <p>With Brad Traversy</p>
+        </header>
+        <form>
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div>
+                <label for="bg">Background</label>
+                <select name="bg" id="bg" onchange= "changeBackground(this)">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="gray">Gray</option>
+                </select>
+            </div>
+            <div>   
+                <input type="submit" value="Submit" onclick="changeText()">
+            </div>
+        </form>
+    </body>
+</html>
